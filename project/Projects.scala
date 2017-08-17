@@ -31,21 +31,21 @@ object Projects {
 
   private[this] val scalaJsSettings = Seq(
     name := projectName,
-    organization := "com.definitelyscala",
-    homepage := Some(url("https://github.com/DefinitelyScala/scala-js-pdfkit")),
+    organization := "technology.kapp",
+    homepage := Some(url("https://github.com/kapp-technology/scala-js-pdfkit")),
     scmInfo := Some(ScmInfo(
-      url("https://github.com/DefinitelyScala/scala-js-pdfkit"),
-      "scm:git:git@github.com:DefinitelyScala/scala-js-pdfkit.git",
-      Some("scm:git:git@github.com:DefinitelyScala/scala-js-pdfkit.git")
+      url("https://github.com/kapp-technology/scala-js-pdfkit"),
+      "scm:git:git@github.com:kapp-technology/scala-js-pdfkit.git",
+      Some("scm:git:git@github.com:kapp-technology/scala-js-pdfkit.git")
     )),
-    bintrayOrganization := Some("definitelyscala"),
+    bintrayOrganization := Some("kapp-technology"),
     bintrayPackageLabels := Seq("scala", "scala.js"),
     bintrayPackage := "scala-js-pdfkit",
     bintrayRepository := "maven",
-    bintrayVcsUrl := Some("git:git@github.com:DefinitelyScala/scala-js-pdfkit.git"),
+    bintrayVcsUrl := Some("git:git@github.com:kapp-technology/scala-js-pdfkit.git"),
     publishMavenStyle := true,
     licenses += ("MIT", url("http://opensource.org/licenses/MIT")),
-    libraryDependencies ++= Seq("org.scala-js" %%% "scalajs-dom" % "0.9.2", "com.definitelyscala" %%% "scala-js-jquery" % "1.0.2"),
+    libraryDependencies ++= Seq("org.scala-js" %%% "scalajs-dom" % "0.9.2"),
     scalaJSStage in Global := FastOptStage
   )
 

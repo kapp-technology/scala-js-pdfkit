@@ -14,3 +14,5 @@ com/
 .DS_Store
 .ensime
 .ensime_cache
+pc.stdout.log
+ensime-langserver.log

@@ -1,36 +1,16 @@
-scala-js-pdfkit
-===============
+
+# scala-js-pdfkit
 
 [![Build Status](https://travis-ci.org/kapp-technology/scala-js-pdfkit.svg?branch=master)](https://travis-ci.org/DefinitelyScala/scala-js-pdfkit)
 [![Scala.js](https://www.scala-js.org/assets/badges/scalajs-0.6.15.svg)](https://www.scala-js.org/)
 
 Scala.js facades for [pdfkit](http://twitter.github.com/pdfkit/).
 
-This project depends on `scala-js-jquery`.
+This project is WIP
 
 Generated from [TypeScript definitions](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/pdfkit) based on pdfkit 3.3.5.
 
-Usage
------
-
-First, add the JCenter resolver to your build file:
- 
-```
-resolvers += Resolver.jcenterRepo,
-```
-
-Then, add it to your SBT dependencies:
-
-```
-libraryDependencies += "com.definitelyscala" %%% "scala-js-pdfkit" % "1.0.2"
-```
-
-Classes and traits are available in the package `com.definitelyscala.pdfkit`, scaladoc is provided.
-
-This project provides Scala.js facades. You will still need to include the JavaScript library source in your web page.
-
-License
--------
+# License
 
 The MIT License (MIT)
 
