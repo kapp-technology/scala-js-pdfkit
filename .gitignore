@@ -13,3 +13,4 @@ tmp
 com/
 .DS_Store
 .ensime
+.ensime_cache
